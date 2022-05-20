@@ -3,35 +3,37 @@ thoughts and themes
 
 Color Theme
 ===========
-Created Friday 01 November 2019
 
-What should stand out?
-	Variable names
-	Function names
-	Constants
+- What should stand out?
+	- Variable names
+	- Function names
+	- Constants
 	
-What should be less visible?
-	Certain keywords (if, else)
-	Types
-	*, ==, &, ->, .
+- What should be less visible?
+	- Certain keywords (if, else)
+	- Types
+	- *, ==, &, ->, .
 
-What should hide?
-	Boring keywords (static)
+- What should hide?
+	- Boring keywords (static)
 
-Bright #F6019D #2DE2E6 #FF6C11 #FF3864
-Light #791E94 #920075
-Dark #261447 #023788 #650D89 #540D6E 
+- Bright #F6019D #2DE2E6 #FF6C11 #FF3864
 
-	   "comments" light / 791E94
-		"functions" light / 920075
-		"keywords" dark / 261447
-		"numbers" bright F6019D
-		"strings" bright 2DE2E6
-		"types" bright FF6C11
-		"variables" bright FF3864
+- Light #791E94 #920075
+
+- Dark #261447 #023788 #650D89 #540D6E 
+
+- "comments" light / 791E94
+- "functions" light / 920075
+- "keywords" dark / 261447
+- "numbers" bright F6019D
+- "strings" bright 2DE2E6
+- "types" bright FF6C11
+- "variables" bright FF3864
 
 based off of Beeler's lua config, darkened:
 
+```
 	"editor.tokenColorCustomizations": {
 		// "comments": "#00FF00",
 		// "functions": "#00FF00",
@@ -142,3 +144,4 @@ Note that this has issues with some macros / functions being displayed as blue e
 							{ "scope":"support.class", "settings": { "foreground": "#ec4ccc" } },
 							{ "scope":"entity.other.inherited-class", "settings": { "foreground": "#ec4ccc" } },
 						]
+```
